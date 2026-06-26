@@ -17,27 +17,29 @@ CSE student exploring:
 - Robotics & Embedded Systems
 - Competitive Programming
 - System Design & Engineering Thinking
+- Game Development
 
 ---
 
 ## Current Focus
 
-- 🤖 Autonomous systems (robotics + control)
-- 🧠 Machine learning fundamentals
-- ⚙️ Competitive programming practice
-- 🌐 Building modern web interfaces
+-  Autonomous systems (robotics + control)
+-  Machine learning fundamentals
+-  Competitive programming practice
+-  Building modern web interfaces
+-  learning game development basics
 
 ---
 
 ## Systems & Experiments
 
-### 🚗 Line Follower Robot
+###  Line Follower Robot
 Arduino-based autonomous robot using sensor feedback control.
 
-### 📊 ML Exploration Project
+###  ML Exploration Project
 Experiments with data-driven models and prediction systems.
 
-### 🌐 Portfolio Website
+###  Portfolio Website
 React-based personal portfolio with modern UI/UX.
 
 ---
@@ -51,9 +53,9 @@ React • Arduino • Git • Linux
 
 ## Journey
 
-2024 → Competitive Programming & Core CS  
-2025 → Robotics & Embedded Systems  
-2026 → Machine Learning & Intelligent Systems  
+2024 →
+2025 →  
+2026 → 
 
 ---
 
