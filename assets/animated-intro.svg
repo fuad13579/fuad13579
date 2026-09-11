@@ -19,21 +19,21 @@
   <circle class="node" cx="119" cy="40" r="2.5"><animate attributeName="opacity" values=".3;1;.3" dur="2.2s" repeatCount="indefinite"/></circle>
   <circle class="node" cx="640" cy="91" r="2.5"><animate attributeName="opacity" values="1;.3;1" dur="2.2s" repeatCount="indefinite"/></circle>
 
-  <text class="kicker" x="145" y="32">FUAD / CSE / ENGINEERING</text>
+  <text class="kicker" x="145" y="32">FUAD / CSE / ENGINEERING STUDENT AT IUT</text>
   <text class="main" x="145" y="66" aria-hidden="true">&gt;</text>
 
   <g aria-label="Building intelligent systems">
-    <text class="main" x="174" y="66">BUILDING INTELLIGENT SYSTEMS</text>
+    <text class="main" x="174" y="66">EXPERIMENTING AT THE EDGE OF CODE</text>
     <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.29;.33;1" dur="12s" repeatCount="indefinite"/>
     <animateTransform attributeName="transform" type="translate" values="0 4;0 0;0 0;0 -4;0 -4" keyTimes="0;.04;.29;.33;1" dur="12s" repeatCount="indefinite"/>
   </g>
   <g aria-label="Engineering autonomous robots" opacity="0">
-    <text class="main" x="174" y="66">ENGINEERING AUTONOMOUS ROBOTS</text>
+    <text class="main" x="174" y="66">ALWAYS BUILDING SOMETHING NEW</text>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.33;.37;.62;.66;1" dur="12s" repeatCount="indefinite"/>
     <animateTransform attributeName="transform" type="translate" values="0 4;0 4;0 0;0 0;0 -4;0 -4" keyTimes="0;.33;.37;.62;.66;1" dur="12s" repeatCount="indefinite"/>
   </g>
   <g aria-label="Learning through experiments" opacity="0">
-    <text class="main" x="174" y="66">LEARNING THROUGH EXPERIMENTS</text>
+    <text class="main" x="174" y="66">OBSESSED WITH MAKING THINGS WORK</text>
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.66;.70;.96;1" dur="12s" repeatCount="indefinite"/>
     <animateTransform attributeName="transform" type="translate" values="0 4;0 4;0 0;0 0;0 -4" keyTimes="0;.66;.70;.96;1" dur="12s" repeatCount="indefinite"/>
   </g>
