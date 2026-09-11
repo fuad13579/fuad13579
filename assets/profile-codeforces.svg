@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="86" viewBox="0 0 280 86" role="img" aria-labelledby="title desc">
+  <title id="title">Codeforces profile</title>
+  <desc id="desc">Codeforces profile for fuad_01123 inside an animated circuit border.</desc>
+  <style>
+    :root{--bg:#fff;--border:#d0d7de;--text:#24292f;--muted:#57606a;--accent:#2da44e}
+    @media(prefers-color-scheme:dark){:root{--bg:#0d1117;--border:#30363d;--text:#c9d1d9;--muted:#8b949e;--accent:#3fb950}}
+    .base{fill:var(--bg);stroke:var(--border)}.circuit{fill:none;stroke:var(--accent);stroke-width:1.5;stroke-linecap:round}.name{fill:var(--text);font:700 14px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.06em}.handle{fill:var(--muted);font:500 12px ui-monospace,SFMono-Regular,Consolas,monospace}
+  </style>
+  <rect class="base" x=".75" y=".75" width="278.5" height="84.5" rx="10"/>
+  <rect class="circuit" x="5" y="5" width="270" height="76" rx="7" stroke-dasharray="56 640"><animate attributeName="stroke-dashoffset" values="0;-696" dur="7s" repeatCount="indefinite"/></rect>
+  <path class="circuit" opacity=".35" d="M5 24h13l7-7h13M275 62h-13l-7 7h-13"/>
+  <circle cx="38" cy="17" r="2.5" fill="var(--accent)"><animate attributeName="opacity" values=".3;1;.3" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="242" cy="69" r="2.5" fill="var(--accent)"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+  <g transform="translate(28 22)" aria-label="Codeforces icon"><rect x="0" y="17" width="9" height="20" rx="2" fill="#f2c94c"/><rect x="12" y="7" width="9" height="30" rx="2" fill="#2f80ed"/><rect x="24" y="13" width="9" height="24" rx="2" fill="#eb5757"/></g>
+  <text class="name" x="82" y="39">CODEFORCES</text><text class="handle" x="82" y="59">@fuad_01123</text>
+  <path d="M247 38h8m-4-4 4 4-4 4" fill="none" stroke="var(--muted)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

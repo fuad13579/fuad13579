@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="310" viewBox="0 0 760 310" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="310" viewBox="0 0 980 310" role="img" aria-labelledby="title desc">
   <title id="title">Fuad's isometric engineering laboratory</title>
-  <desc id="desc">Three minimalist isometric workstations represent robotics and embedded systems, artificial intelligence and machine learning, and web systems.</desc>
+  <desc id="desc">Four minimalist isometric workstations represent robotics and embedded systems, artificial intelligence and machine learning, web systems, and game development.</desc>
   <style>
     :root{--bg:#fff;--panel:#f6f8fa;--border:#d0d7de;--text:#57606a;--line:#8c959f;--top:#eaeef2;--left:#d8dee4;--right:#c6cdd5;--surface:#fff;--accent:#2da44e;--accent-soft:#9be9a8;--screen:#24292f}
     @media (prefers-color-scheme:dark){:root{--bg:#0d1117;--panel:#161b22;--border:#30363d;--text:#8b949e;--line:#6e7681;--top:#30363d;--left:#21262d;--right:#161b22;--surface:#0d1117;--accent:#3fb950;--accent-soft:#0e4429;--screen:#010409}}
@@ -10,10 +10,10 @@
     .wire{fill:none;stroke:var(--accent);stroke-width:1.5;stroke-linecap:round}.outline{fill:none;stroke:var(--line);stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}.accent{fill:var(--accent)}.soft{fill:var(--accent-soft)}.surface{fill:var(--surface);stroke:var(--line)}
   </style>
 
-  <rect class="card" x=".5" y=".5" width="759" height="309" rx="10"/>
+  <rect class="card" x=".5" y=".5" width="979" height="309" rx="10"/>
   <text class="heading" x="38" y="29">ENGINEERING LAB</text>
-  <text class="heading" x="722" y="29" text-anchor="end">SYSTEMS / MODELS / INTERFACES</text>
-  <path d="M38 45H722" stroke="var(--border)"/>
+  <text class="heading" x="942" y="29" text-anchor="end">SYSTEMS / MODELS / INTERFACES / SIMULATION</text>
+  <path d="M38 45H942" stroke="var(--border)"/>
 
   <!-- Robotics and embedded systems workstation -->
   <g aria-label="Robotics and embedded systems workstation">
@@ -75,5 +75,30 @@
     <polygon class="right" points="669 214 687 205 687 215 669 224"/>
     <circle class="accent" cx="669" cy="205" r="2.5"><animate attributeName="opacity" values=".35;1;.35" dur="2s" repeatCount="indefinite"/></circle>
     <text class="caption" x="610" y="274" text-anchor="middle">WEB + SYSTEMS</text>
+  </g>
+
+  <!-- Game development workstation -->
+  <g aria-label="Game development workstation">
+    <polygon class="platform-left" points="745 184 840 231 840 244 745 197"/>
+    <polygon class="platform-right" points="840 231 935 184 935 197 840 244"/>
+    <polygon class="platform-top" points="745 184 840 137 935 184 840 231"/>
+    <path class="wire" d="M770 193l48 24 89-45" stroke-dasharray="3 5"><animate attributeName="stroke-dashoffset" values="16;0" dur="3.4s" repeatCount="indefinite"/></path>
+
+    <polygon class="left" points="779 151 847 185 847 216 779 182"/>
+    <polygon class="right" points="847 185 893 162 893 193 847 216"/>
+    <polygon class="surface" points="779 151 825 128 893 162 847 185"/>
+    <path class="outline" d="M793 151l33-16 52 26-33 16z"/>
+    <path d="M810 153h10v10h-10z" fill="var(--accent)" opacity=".8">
+      <animate attributeName="transform" type="translate" values="0 0;20 10;39 -9;0 0" keyTimes="0;.36;.7;1" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <path class="outline" d="M799 169h14m-7-7v14m49-12 5 2m-10 3 5 2"/>
+
+    <g transform="translate(865 205)" aria-label="Game controller">
+      <path class="top" d="M-24 2q2-13 12-14h24q10 1 12 14l-7 8-10-6H-7l-10 6z"/>
+      <path class="outline" d="M-14-5v8m-4-4h8"/>
+      <circle class="accent" cx="12" cy="-2" r="2"/><circle class="soft" cx="17" cy="1" r="2"/>
+      <circle cx="0" cy="0" r="3" fill="none" stroke="var(--accent)" opacity=".4"><animate attributeName="r" values="3;8;3" dur="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".45;0;.45" dur="2.6s" repeatCount="indefinite"/></circle>
+    </g>
+    <text class="caption" x="840" y="274" text-anchor="middle">GAME DEVELOPMENT</text>
   </g>
 </svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="86" viewBox="0 0 280 86" role="img" aria-labelledby="title desc">
+  <title id="title">Kaggle profile</title>
+  <desc id="desc">Kaggle profile for fuadbinsattar inside an animated circuit border.</desc>
+  <style>
+    :root{--bg:#fff;--border:#d0d7de;--text:#24292f;--muted:#57606a;--accent:#2da44e;--kaggle:#20beff}
+    @media(prefers-color-scheme:dark){:root{--bg:#0d1117;--border:#30363d;--text:#c9d1d9;--muted:#8b949e;--accent:#3fb950;--kaggle:#58cfff}}
+    .base{fill:var(--bg);stroke:var(--border)}.circuit{fill:none;stroke:var(--accent);stroke-width:1.5;stroke-linecap:round}.name{fill:var(--text);font:700 14px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.06em}.handle{fill:var(--muted);font:500 12px ui-monospace,SFMono-Regular,Consolas,monospace}
+  </style>
+  <rect class="base" x=".75" y=".75" width="278.5" height="84.5" rx="10"/>
+  <rect class="circuit" x="5" y="5" width="270" height="76" rx="7" stroke-dasharray="56 640"><animate attributeName="stroke-dashoffset" values="-348;-1044" dur="7s" repeatCount="indefinite"/></rect>
+  <path class="circuit" opacity=".35" d="M5 62h13l7 7h13M275 24h-13l-7-7h-13"/>
+  <circle cx="38" cy="69" r="2.5" fill="var(--accent)"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="242" cy="17" r="2.5" fill="var(--accent)"><animate attributeName="opacity" values=".3;1;.3" dur="2s" repeatCount="indefinite"/></circle>
+  <g transform="translate(32 20)" aria-label="Kaggle icon"><path d="M5 3v40M6 28l20-22M7 27l20 16" fill="none" stroke="var(--kaggle)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text class="name" x="82" y="39">KAGGLE</text><text class="handle" x="82" y="59">@fuadbinsattar</text>
+  <path d="M247 38h8m-4-4 4 4-4 4" fill="none" stroke="var(--muted)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

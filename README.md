@@ -49,7 +49,7 @@ CSE student exploring:
 
 
 <p align="center">
-  <img src="./assets/engineering-lab.svg" alt="Isometric engineering lab representing robotics, machine learning, and web systems" />
+  <img src="./assets/engineering-lab.svg" alt="Isometric engineering lab representing robotics, machine learning, web systems, and game development" />
 </p>
 
 ---
@@ -66,6 +66,16 @@ CSE student exploring:
 ---
 
 
+
+## Practice & Research
+
+<p align="center">
+  <a href="https://codeforces.com/profile/fuad_01123"><img src="./assets/profile-codeforces.svg" width="280" alt="Codeforces profile: fuad_01123" /></a>
+  &nbsp;&nbsp;
+  <a href="https://www.kaggle.com/fuadbinsattar"><img src="./assets/profile-kaggle.svg" width="280" alt="Kaggle profile: fuadbinsattar" /></a>
+</p>
+
+---
 
 ## Connect
 
