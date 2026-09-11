@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" role="img" aria-labelledby="title">
+  <title id="title">Email</title>
+  <style>:root{--bg:#f6f8fa;--border:#d0d7de;--icon:#57606a;--accent:#2da44e}@media(prefers-color-scheme:dark){:root{--bg:#161b22;--border:#30363d;--icon:#8b949e;--accent:#3fb950}}</style>
+  <rect x=".5" y=".5" width="39" height="39" rx="9" fill="var(--bg)" stroke="var(--border)"/>
+  <rect x="8.5" y="11.5" width="23" height="17" rx="3" fill="none" stroke="var(--icon)" stroke-width="2"/>
+  <path d="m10 14 10 8 10-8" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

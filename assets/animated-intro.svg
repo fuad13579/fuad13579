@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="128" viewBox="0 0 760 128" role="img" aria-labelledby="title desc">
+  <title id="title">Fuad Bin Sattar — AI, robotics, and systems</title>
+  <desc id="desc">An animated engineering console cycles through building intelligent systems, engineering autonomous robots, and learning through experiments.</desc>
+  <style>
+    :root{--bg:#fff;--panel:#f6f8fa;--border:#d0d7de;--text:#24292f;--muted:#57606a;--accent:#2da44e;--soft:#9be9a8}
+    @media (prefers-color-scheme:dark){:root{--bg:#0d1117;--panel:#161b22;--border:#30363d;--text:#c9d1d9;--muted:#8b949e;--accent:#3fb950;--soft:#0e4429}}
+    .card{fill:var(--bg);stroke:var(--border)}.kicker{fill:var(--muted);font:600 10px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.14em}.main{fill:var(--text);font:600 22px ui-monospace,SFMono-Regular,Consolas,monospace}.tag{fill:var(--muted);font:500 11px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.06em}.trace{fill:none;stroke:var(--border);stroke-width:1}.signal{fill:none;stroke:var(--accent);stroke-width:1.5;stroke-linecap:round}.node{fill:var(--accent)}
+  </style>
+
+  <rect class="card" x=".5" y=".5" width="759" height="127" rx="10"/>
+  <path class="trace" d="M27 28h45l12 12h35M641 40h35l12-12h45M27 100h55l10-10h28M640 91h41l11 11h41"/>
+  <path class="signal" d="M27 28h45l12 12h35" stroke-dasharray="8 75">
+    <animate attributeName="stroke-dashoffset" values="83;-83" dur="3.8s" repeatCount="indefinite"/>
+  </path>
+  <path class="signal" d="M640 91h41l11 11h41" stroke-dasharray="8 75">
+    <animate attributeName="stroke-dashoffset" values="83;-83" dur="4.2s" repeatCount="indefinite"/>
+  </path>
+  <circle class="node" cx="119" cy="40" r="2.5"><animate attributeName="opacity" values=".3;1;.3" dur="2.2s" repeatCount="indefinite"/></circle>
+  <circle class="node" cx="640" cy="91" r="2.5"><animate attributeName="opacity" values="1;.3;1" dur="2.2s" repeatCount="indefinite"/></circle>
+
+  <text class="kicker" x="145" y="32">FUAD / CSE / ENGINEERING</text>
+  <text class="main" x="145" y="66" aria-hidden="true">&gt;</text>
+
+  <g aria-label="Building intelligent systems">
+    <text class="main" x="174" y="66">BUILDING INTELLIGENT SYSTEMS</text>
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.29;.33;1" dur="12s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 4;0 0;0 0;0 -4;0 -4" keyTimes="0;.04;.29;.33;1" dur="12s" repeatCount="indefinite"/>
+  </g>
+  <g aria-label="Engineering autonomous robots" opacity="0">
+    <text class="main" x="174" y="66">ENGINEERING AUTONOMOUS ROBOTS</text>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.33;.37;.62;.66;1" dur="12s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 4;0 4;0 0;0 0;0 -4;0 -4" keyTimes="0;.33;.37;.62;.66;1" dur="12s" repeatCount="indefinite"/>
+  </g>
+  <g aria-label="Learning through experiments" opacity="0">
+    <text class="main" x="174" y="66">LEARNING THROUGH EXPERIMENTS</text>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.66;.70;.96;1" dur="12s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 4;0 4;0 0;0 0;0 -4" keyTimes="0;.66;.70;.96;1" dur="12s" repeatCount="indefinite"/>
+  </g>
+
+  <rect x="696" y="49" width="3" height="21" rx="1.5" fill="var(--accent)">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.45;.5;.95;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+  <text class="tag" x="145" y="94">AI / ROBOTICS / MACHINE LEARNING / SYSTEM DESIGN</text>
+  <rect x="145" y="106" width="554" height="2" rx="1" fill="var(--border)"/>
+  <rect x="145" y="106" width="92" height="2" rx="1" fill="var(--accent)">
+    <animate attributeName="x" values="145;607;145" keyTimes="0;.5;1" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+  </rect>
+</svg>

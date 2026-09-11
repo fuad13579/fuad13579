@@ -1,0 +1,46 @@
+name: Generate robot contribution card
+
+on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate-robot-contribution.mjs"
+      - ".github/workflows/robot-contribution.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: robot-contribution-card
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate SVG cards from GitHub contribution data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: node scripts/generate-robot-contribution.mjs
+
+      - name: Commit updated card
+        run: |
+          if git diff --quiet -- assets/robot-contribution.svg assets/streak-telemetry.svg assets/github-stats.svg assets/top-languages.svg; then
+            echo "GitHub activity cards are already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/robot-contribution.svg assets/streak-telemetry.svg assets/github-stats.svg assets/top-languages.svg
+          git commit -m "chore: refresh GitHub activity cards"
+          git push

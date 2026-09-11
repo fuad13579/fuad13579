@@ -1,12 +1,27 @@
-# Fuad Bin Sattar (This section's work is in progress)
+<p align="center">
+  <img src="./assets/animated-name.svg" alt="Fuad Bin Sattar" />
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=AI+%E2%80%A2+Robotics+%E2%80%A2+Machine+Learning)](https://git.io/typing-svg)
+<p align="center">
+  <img src="./assets/animated-intro.svg" alt="Fuad Bin Sattar — AI, robotics, machine learning, and systems engineering" />
+</p>
 
 ## GitHub Stats
 
-![Fuad's GitHub stats](https://github-readme-stats.vercel.app/api?username=fuad13579&show_icons=true&theme=tokyonight)
+<p align="center">
+  <img width="49%" src="./assets/github-stats.svg" alt="GitHub statistics for fuad13579" />
+  <img width="49%" src="./assets/top-languages.svg" alt="Most used languages across fuad13579's public repositories" />
+</p>
 
-![GitHub Streak](https://streak-stats.demolab.com?user=fuad13579&theme=tokyonight)
+<p align="center">
+  <img src="./assets/streak-telemetry.svg" alt="GitHub contribution streak telemetry for fuad13579" />
+</p>
+
+## Contributions
+
+<p align="center">
+  <img src="./assets/robot-contribution.svg" alt="GitHub contribution activity represented by an animated robot" />
+</p>
 
 ---
 
@@ -25,40 +40,39 @@ CSE student exploring:
 
 -  Autonomous systems (robotics + control)
 -  Machine learning fundamentals
--  Competitive programming practice
+-  Competitive programming and DSA
 -  Building modern web interfaces
 -  learning game development basics
 
 ---
 
-## Systems & Experiments
 
-###  Line Follower Robot
-Arduino-based autonomous robot using sensor feedback control.
 
-###  ML Exploration Project
-Experiments with data-driven models and prediction systems.
-
-###  Portfolio Website
-React-based personal portfolio with modern UI/UX.
+<p align="center">
+  <img src="./assets/engineering-lab.svg" alt="Isometric engineering lab representing robotics, machine learning, and web systems" />
+</p>
 
 ---
 
 ## Tech Stack
 
-C • C++ • Python • JavaScript  
-React • Arduino • Git • Linux
+| Area | Technologies |
+| --- | --- |
+| Languages | C · C++ · Python · JavaScript · TypeScript |
+| Web | React · HTML5 · CSS3 |
+| Robotics & Embedded | Arduino · Sensors · Feedback Control |
+| Tools & Platforms | Git · GitHub · Linux · VS Code |
 
 ---
 
-## Journey
 
-2024 →
-2025 →  
-2026 → 
-
----
 
 ## Connect
 
-GitHub • LinkedIn • Email
+<p align="center">
+  <a href="https://github.com/fuad13579"><img src="./assets/contact-github.svg" width="40" alt="GitHub" /></a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/fuadbinsattar"><img src="./assets/contact-linkedin.svg" width="40" alt="LinkedIn" /></a>
+  &nbsp;&nbsp;
+  <a href="mailto:fuadbi2006bd@gmail.com"><img src="./assets/contact-email.svg" width="40" alt="Email fuadbi2006bd@gmail.com" /></a>
+</p>

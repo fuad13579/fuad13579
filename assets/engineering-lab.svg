@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="310" viewBox="0 0 760 310" role="img" aria-labelledby="title desc">
+  <title id="title">Fuad's isometric engineering laboratory</title>
+  <desc id="desc">Three minimalist isometric workstations represent robotics and embedded systems, artificial intelligence and machine learning, and web systems.</desc>
+  <style>
+    :root{--bg:#fff;--panel:#f6f8fa;--border:#d0d7de;--text:#57606a;--line:#8c959f;--top:#eaeef2;--left:#d8dee4;--right:#c6cdd5;--surface:#fff;--accent:#2da44e;--accent-soft:#9be9a8;--screen:#24292f}
+    @media (prefers-color-scheme:dark){:root{--bg:#0d1117;--panel:#161b22;--border:#30363d;--text:#8b949e;--line:#6e7681;--top:#30363d;--left:#21262d;--right:#161b22;--surface:#0d1117;--accent:#3fb950;--accent-soft:#0e4429;--screen:#010409}}
+    .card{fill:var(--bg);stroke:var(--border)}.heading{fill:var(--text);font:600 12px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.08em}.caption{fill:var(--text);font:600 11px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.05em}
+    .platform-top{fill:var(--panel);stroke:var(--border)}.platform-left{fill:var(--left);stroke:var(--border)}.platform-right{fill:var(--right);stroke:var(--border)}.top{fill:var(--top);stroke:var(--line)}.left{fill:var(--left);stroke:var(--line)}.right{fill:var(--right);stroke:var(--line)}
+    .wire{fill:none;stroke:var(--accent);stroke-width:1.5;stroke-linecap:round}.outline{fill:none;stroke:var(--line);stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}.accent{fill:var(--accent)}.soft{fill:var(--accent-soft)}.surface{fill:var(--surface);stroke:var(--line)}
+  </style>
+
+  <rect class="card" x=".5" y=".5" width="759" height="309" rx="10"/>
+  <text class="heading" x="38" y="29">ENGINEERING LAB</text>
+  <text class="heading" x="722" y="29" text-anchor="end">SYSTEMS / MODELS / INTERFACES</text>
+  <path d="M38 45H722" stroke="var(--border)"/>
+
+  <!-- Robotics and embedded systems workstation -->
+  <g aria-label="Robotics and embedded systems workstation">
+    <polygon class="platform-left" points="55 184 150 231 150 244 55 197"/>
+    <polygon class="platform-right" points="150 231 245 184 245 197 150 244"/>
+    <polygon class="platform-top" points="55 184 150 137 245 184 150 231"/>
+    <path class="wire" d="M82 184l35 17 64-32 35 17" stroke-dasharray="4 5"><animate attributeName="stroke-dashoffset" values="18;0" dur="3.2s" repeatCount="indefinite"/></path>
+    <polygon class="left" points="106 174 150 196 150 210 106 188"/>
+    <polygon class="right" points="150 196 194 174 194 188 150 210"/>
+    <polygon class="top" points="106 174 150 152 194 174 150 196"/>
+    <circle class="surface" cx="125" cy="183" r="7"/><circle class="surface" cx="175" cy="183" r="7"/>
+    <circle class="accent" cx="125" cy="183" r="3"/><circle class="accent" cx="175" cy="183" r="3"/>
+    <path class="outline" d="M150 158v-24m-9 4 9-4 9 4"/>
+    <g transform="translate(150 134)">
+      <path d="M0 0L-38-7L-11 7Z" fill="var(--accent)" opacity=".12">
+        <animateTransform attributeName="transform" type="rotate" values="-18;18;-18" dur="4s" repeatCount="indefinite"/>
+      </path>
+      <circle class="accent" r="3"/>
+    </g>
+    <circle class="soft" cx="85" cy="184" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="2.2s" repeatCount="indefinite"/></circle>
+    <text class="caption" x="150" y="274" text-anchor="middle">ROBOTICS + EMBEDDED</text>
+  </g>
+
+  <!-- AI and machine learning workstation -->
+  <g aria-label="Artificial intelligence and machine learning workstation">
+    <polygon class="platform-left" points="285 184 380 231 380 244 285 197"/>
+    <polygon class="platform-right" points="380 231 475 184 475 197 380 244"/>
+    <polygon class="platform-top" points="285 184 380 137 475 184 380 231"/>
+    <path class="outline" d="M330 184l31-26m-31 26 45 18m-14-44 44 17m-30 27 30-27m0 0 25 14"/>
+    <g class="soft">
+      <circle cx="330" cy="184" r="7"/><circle cx="361" cy="158" r="7"/><circle cx="375" cy="202" r="7"/><circle cx="405" cy="175" r="8"/><circle cx="430" cy="189" r="6"/>
+    </g>
+    <g class="accent">
+      <circle cx="330" cy="184" r="3"/><circle cx="361" cy="158" r="3"/><circle cx="375" cy="202" r="3"/><circle cx="405" cy="175" r="3"/><circle cx="430" cy="189" r="3"/>
+      <circle cx="405" cy="175" r="5" opacity=".35"><animate attributeName="r" values="5;13;5" dur="2.8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".45;0;.45" dur="2.8s" repeatCount="indefinite"/></circle>
+    </g>
+    <polygon class="left" points="354 173 380 186 380 198 354 185"/>
+    <polygon class="right" points="380 186 406 173 406 185 380 198"/>
+    <polygon class="top" points="354 173 380 160 406 173 380 186"/>
+    <path class="wire" d="M365 173l15-7 15 7-15 7z"/>
+    <text class="caption" x="380" y="274" text-anchor="middle">AI + MACHINE LEARNING</text>
+  </g>
+
+  <!-- Web systems workstation -->
+  <g aria-label="Web systems workstation">
+    <polygon class="platform-left" points="515 184 610 231 610 244 515 197"/>
+    <polygon class="platform-right" points="610 231 705 184 705 197 610 244"/>
+    <polygon class="platform-top" points="515 184 610 137 705 184 610 231"/>
+    <path class="wire" d="M542 190l43 21 92-46" stroke-dasharray="3 5"><animate attributeName="stroke-dashoffset" values="16;0" dur="3s" repeatCount="indefinite"/></path>
+    <polygon class="left" points="551 151 626 188 626 219 551 182"/>
+    <polygon class="right" points="626 188 670 166 670 197 626 219"/>
+    <polygon class="surface" points="551 151 595 129 670 166 626 188"/>
+    <path class="outline" d="M568 151l28-14 55 27-28 14zM580 154l39 19"/>
+    <circle class="accent" cx="561" cy="153" r="2"/><circle class="soft" cx="568" cy="150" r="2"/>
+    <path class="wire" d="M598 158l17 8"/>
+    <path d="M620 169l8 4" stroke="var(--accent)" stroke-width="2"><animate attributeName="opacity" values="1;0;1" dur="1.15s" repeatCount="indefinite"/></path>
+    <polygon class="top" points="651 205 669 196 687 205 669 214"/>
+    <polygon class="left" points="651 205 669 214 669 224 651 215"/>
+    <polygon class="right" points="669 214 687 205 687 215 669 224"/>
+    <circle class="accent" cx="669" cy="205" r="2.5"><animate attributeName="opacity" values=".35;1;.35" dur="2s" repeatCount="indefinite"/></circle>
+    <text class="caption" x="610" y="274" text-anchor="middle">WEB + SYSTEMS</text>
+  </g>
+</svg>

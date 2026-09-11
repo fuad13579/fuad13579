@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="370" height="218" viewBox="0 0 370 218" role="img" aria-labelledby="title desc">
+  <title id="title">fuad13579's most used languages</title>
+  <desc id="desc">Repository language usage calculated by bytes across owned public, non-fork repositories.</desc>
+  <style>
+    :root{--bg:#fff;--border:#d0d7de;--text:#24292f;--muted:#57606a}
+    @media (prefers-color-scheme:dark){:root{--bg:#0d1117;--border:#30363d;--text:#c9d1d9;--muted:#8b949e}}
+    .card{fill:var(--bg);stroke:var(--border)}.heading{fill:var(--text);font:700 14px ui-monospace,SFMono-Regular,Consolas,monospace}.language{fill:var(--text);font:600 10px ui-monospace,SFMono-Regular,Consolas,monospace}.percent{fill:var(--muted);font:500 9px ui-monospace,SFMono-Regular,Consolas,monospace}.note{fill:var(--muted);font:500 8px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.04em}
+  </style>
+  <rect class="card" x=".5" y=".5" width="369" height="217" rx="10"/>
+  <text class="heading" x="22" y="31">MOST USED LANGUAGES</text>
+  <path d="M22 42H348" stroke="var(--border)"/>
+  <clipPath id="bar"><rect x="22" y="55" width="326" height="9" rx="4.5"/></clipPath>
+  <g clip-path="url(#bar)"><rect x="22.00" y="55" width="148.09" height="9" fill="#3fb950"/><rect x="170.09" y="55" width="140.08" height="9" fill="#58a6ff"/><rect x="310.17" y="55" width="23.77" height="9" fill="#d2a8ff"/><rect x="333.94" y="55" width="4.17" height="9" fill="#f2cc60"/><rect x="338.11" y="55" width="4.01" height="9" fill="#ff7b72"/><rect x="342.12" y="55" width="2.87" height="9" fill="#79c0ff"/><rect x="344.99" y="55" width="1.55" height="9" fill="#a5d6ff"/><rect x="346.54" y="55" width="1.46" height="9" fill="#8b949e"/></g>
+  <g aria-label="TypeScript: 45.4%"><circle cx="26" cy="87" r="4" fill="#3fb950"/><text class="language" x="37" y="91">TypeScript</text><text class="percent" x="180" y="91" text-anchor="end">45.4%</text></g><g aria-label="Python: 43.0%"><circle cx="200" cy="87" r="4" fill="#58a6ff"/><text class="language" x="211" y="91">Python</text><text class="percent" x="354" y="91" text-anchor="end">43.0%</text></g><g aria-label="C++: 7.3%"><circle cx="26" cy="114" r="4" fill="#d2a8ff"/><text class="language" x="37" y="118">C++</text><text class="percent" x="180" y="118" text-anchor="end">7.3%</text></g><g aria-label="Shell: 1.3%"><circle cx="200" cy="114" r="4" fill="#f2cc60"/><text class="language" x="211" y="118">Shell</text><text class="percent" x="354" y="118" text-anchor="end">1.3%</text></g><g aria-label="CSS: 1.2%"><circle cx="26" cy="141" r="4" fill="#ff7b72"/><text class="language" x="37" y="145">CSS</text><text class="percent" x="180" y="145" text-anchor="end">1.2%</text></g><g aria-label="JavaScript: 0.9%"><circle cx="200" cy="141" r="4" fill="#79c0ff"/><text class="language" x="211" y="145">JavaScript</text><text class="percent" x="354" y="145" text-anchor="end">0.9%</text></g><g aria-label="C: 0.5%"><circle cx="26" cy="168" r="4" fill="#a5d6ff"/><text class="language" x="37" y="172">C</text><text class="percent" x="180" y="172" text-anchor="end">0.5%</text></g><g aria-label="PowerShell: 0.4%"><circle cx="200" cy="168" r="4" fill="#8b949e"/><text class="language" x="211" y="172">PowerShell</text><text class="percent" x="354" y="172" text-anchor="end">0.4%</text></g>
+  <path d="M22 195H348" stroke="var(--border)"/>
+  <text class="note" x="22" y="208">PUBLIC NON-FORK REPOSITORIES · CALCULATED BY CODE BYTES</text>
+</svg>
